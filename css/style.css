@@ -1,0 +1,297 @@
+body {
+	background-color: #218A5A;
+}
+
+
+
+
+/* Navigation Bar */
+ 
+ .parentnav {
+ 	display: flex;
+ 	
+ 	height: 80px;
+ 	background-color: #218A6A;
+ 
+ }
+
+.parentnav li {
+	list-style: none;
+	/*margin-right: 80px;
+	margin-left: 70px;*/
+	margin:auto;
+	font-size: 30px;
+	color: rgba(0, 0, 0, .55);
+	font-weight: bold;
+}
+
+.parentnav li:hover {
+	background-color: #00A10B;
+	text-decoration: underline;
+	padding: 10px;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, .55);
+}
+
+a:hover {
+	color: black;
+}
+a:visited {
+	color: rgba(0, 0, 0, .55);
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+/* Games Design and Development title*/
+.games-design {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+}
+
+.gd {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 60px;
+	margin: auto;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+/*Game controller*/
+
+.gamecontroller {
+	display: flex;
+	width: 100%;
+	height: 320px;
+	background-color: #218A7A;
+}
+
+.gc {
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+/*Development */
+
+.development {
+	display: flex;
+	width: 100%;
+	height: 240px;
+	background-color: #218A7A;
+}
+
+.dev {
+color: rgba(255, 255, 255, .55);
+font-size: 60px;
+margin: auto;
+font-family: 'Bubblegum Sans', cursive;
+}
+
+/*Doggy GIF*/
+
+.doggygif {
+	display: flex;
+	width: 100%;
+	height: 400px;
+	background-color: black;
+}
+
+
+/* -------------------------------PROJECTS----------------------------------- */
+
+/* Project title*/
+.projects {
+	display: flex;
+	width: 100%;
+	height: 180px;
+	background-color: #218A7A;
+}
+
+.pj {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 60px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 10%;
+	text-decoration: underline;
+}
+
+/*lists and gifs*/
+
+.lists-and-gifs {
+	display: flex;
+	width: 100%;
+	height: 500px;
+}
+
+.list {
+	width: 50%;
+	background-color: #218A7A;
+	font-size: 30px;
+}
+
+.d-a {
+	margin-left: 10%;
+}
+
+.p-t {
+	margin-left: 10%;
+}
+
+
+.gifs {
+	width: 50%;
+	background-color: #218A7A;
+}
+
+
+
+/*-------------------------------ABOUT ME-----------------------------------------*/
+
+/* logo and about me */
+
+.logo-about-me {
+	display: flex;
+	width: 100%;
+	height: 180;
+	background-color: #218A7A;
+}
+
+.logo {
+	width: 30%;
+}
+
+.about-me {
+	width: 70%;
+}
+
+.a-m {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 60px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 10%;
+	text-decoration: underline;
+}
+
+/* image and basic information */
+
+.image-and-basic-info {
+	display: flex;
+	width: 100%;
+	height: 180;
+	background-color: #218A7A;
+}
+
+.picture-of-me {
+	width: 30%;
+}
+
+.basic-info {
+	width: 70%;
+}
+
+.b-i {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 20px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 10%;
+}
+
+
+/* qualifications and experience */
+
+.qualification-experience-title {
+	display: flex;
+	width: 100%;
+	height: 60px;
+	background-color: #218A7A;
+}
+
+.qual-exper {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 30px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 5%;
+	text-decoration: underline;
+}
+
+
+.qualification-experience {
+	display: flex;
+	width: 100%;
+	height: 300px;
+	background-color: #218A7A;
+}
+
+.q-e {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 20px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 5%;
+}
+
+/* contact */
+
+.contact-title {
+	display: flex;
+	width: 100%;
+	height: 60px;
+	background-color: #218A7A;
+}
+
+.contact {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 30px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 5%;
+	text-decoration: underline;
+}
+
+
+.contact-info {
+	display: flex;
+	width: 100%;
+	height: 300px;
+	background-color: #218A7A;
+}
+
+.c-i {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 20px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 5%;
+}
+
+/*-------------------------Paper trails-------------------------*/
+
+/* Paper trails title */
+.paper-trails {
+	display: flex;
+	width: 100%;
+	height: 180px;
+	background-color: #218A7A;
+}
+
+.pt {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 60px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin: auto;
+	text-decoration: underline;
+}
+
+
+/* Slideshow */
+
+.cycle-slideshow {
+max-width: 50%;
+margin: 10 auto;
+}
+
+.center {
+	text-align: center;
+}
