@@ -3,7 +3,9 @@ body {
 }
 
 
-
+img {
+	max-width: 100%;
+}
 
 /* Navigation Bar */
  
@@ -221,9 +223,9 @@ font-family: 'Bubblegum Sans', cursive;
 
 
 .qualification-experience {
-	display: flex;
+	/*display: flex;*/
 	width: 100%;
-	height: 300px;
+	height: 500px;
 	background-color: #218A7A;
 }
 
@@ -266,13 +268,19 @@ font-family: 'Bubblegum Sans', cursive;
 	margin-left: 5%;
 }
 
+.aboutmemaincontainer {
+	background-color: #218A7A;
+	height: 900px;
+}
+
+
 /*-------------------------Paper trails-------------------------*/
 
 /* Paper trails title */
 .paper-trails {
 	display: flex;
 	width: 100%;
-	height: 180px;
+	height: 110px;
 	background-color: #218A7A;
 }
 
@@ -288,10 +296,180 @@ font-family: 'Bubblegum Sans', cursive;
 /* Slideshow */
 
 .cycle-slideshow {
-max-width: 50%;
-margin: 10 auto;
+    width: 100%;
+    min-width: 200px;
+    max-width: 25%;
+    margin: 10px auto;
+    padding: 0;
+    position: relative;
 }
-
+   
 .center {
 	text-align: center;
+}
+
+.papertrailsmaincontainer {
+	background-color: #218A7A;
+	height: 1350px;
+}
+
+
+
+/*slideshow title (paper trails assets and textures)*/
+
+.ptassetsandtextures {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+	margin-top: 3%;
+}
+
+.ptaandt {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	margin: auto;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+/*slideshow for pre-production*/
+
+.papertrailspreproduction {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+	justify-content: center;
+}
+
+.papertrailsprepro {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+
+/*--------------------Drift Away----------------------------*/
+
+/*Drift away title*/
+
+.driftaway {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+}
+
+.da {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 60px;
+	margin: auto;
+	font-family: 'Bubblegum Sans', cursive;
+	text-decoration: underline;
+}
+
+
+
+/*Man, text, nightmare*/
+
+.mantextnightmare {
+	display: flex;
+	width: 100%;
+	height: 450px;
+	background-color: #218A7A;
+}
+
+.man {
+	width: 10%;
+	margin-left: 5%;
+}
+
+.driftawaytext {
+	width: 70%;
+}
+
+.nightmare {
+	width: 20%;
+	margin-left: 5%;
+}
+
+.star {
+	margin-left: 45%;
+}
+
+/*drift away main container*/
+
+.driftawaymaincontainer {
+	background-color: #218A7A;
+	height: 2350px;
+}
+
+
+/*slideshow title (drift away background)*/
+
+.dabackgrounds {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+}
+
+.driftawaybackgrounds {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	margin: auto;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+
+/*slideshow title (drift away assets)*/
+
+.daassets {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+}
+
+.driftawayassets {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+
+/*additional information drift away*/
+
+.additionalinformationdriftaway {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+}
+
+.addinfodriftaway {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+
+/*slideshow for pre-production*/
+
+.driftawaypreproduction {
+	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+	justify-content: center;
+}
+
+.driftawayprepro {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
 }
