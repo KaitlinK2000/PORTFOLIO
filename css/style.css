@@ -7,6 +7,9 @@ img {
 	max-width: 100%;
 }
 
+
+@media (min-width: 640px) {
+
 /* Navigation Bar */
  
  .parentnav {
@@ -402,7 +405,7 @@ font-family: 'Bubblegum Sans', cursive;
 
 .driftawaymaincontainer {
 	background-color: #218A7A;
-	height: 2350px;
+	height: 2700px;
 }
 
 
@@ -461,6 +464,483 @@ font-family: 'Bubblegum Sans', cursive;
 
 .driftawaypreproduction {
 	display: flex;
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+	justify-content: center;
+}
+
+.driftawayprepro {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+
+}
+
+
+
+
+
+
+
+/* MOBILE FIRST VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
+
+
+
+
+
+
+
+
+
+/* Navigation Bar */
+ 
+ .parentnav {
+ 	display: flex;
+ 	
+ 	height: 80px;
+ 	background-color: #218A6A;
+ 
+ }
+
+.parentnav li {
+	list-style: none;
+	/*margin-right: 80px;
+	margin-left: 70px;*/
+	margin:auto;
+	font-size: 30px;
+	color: rgba(0, 0, 0, .55);
+	font-weight: bold;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, .55);
+}
+
+
+a:visited {
+	color: rgba(0, 0, 0, .55);
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+/* Games Design and Development title*/
+.games-design {
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+}
+
+.gd {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 60px;
+	margin: auto;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+/*Game controller*/
+
+.gamecontroller {
+	width: 100%;
+	height: 320px;
+	background-color: #218A7A;
+}
+
+.gc {
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+/*Development */
+
+.development {
+
+	width: 100%;
+	height: 240px;
+	background-color: #218A7A;
+}
+
+.dev {
+color: rgba(255, 255, 255, .55);
+font-size: 60px;
+margin: auto;
+font-family: 'Bubblegum Sans', cursive;
+}
+
+/*Doggy GIF*/
+
+.doggygif {
+
+	width: 100%;
+	height: 400px;
+	background-color: black;
+}
+
+
+/* -------------------------------PROJECTS----------------------------------- */
+
+/* Project title*/
+.projects {
+
+	width: 100%;
+	height: 180px;
+	background-color: #218A7A;
+}
+
+.pj {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 60px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 10%;
+	text-decoration: underline;
+}
+
+/*lists and gifs*/
+
+.lists-and-gifs {
+
+	width: 100%;
+	height: 500px;
+}
+
+.list {
+	width: 50%;
+	background-color: #218A7A;
+	font-size: 30px;
+}
+
+.d-a {
+	margin-left: 10%;
+}
+
+.p-t {
+	margin-left: 10%;
+}
+
+
+.gifs {
+	width: 50%;
+	background-color: #218A7A;
+}
+
+
+
+/*-------------------------------ABOUT ME-----------------------------------------*/
+
+/* logo and about me */
+
+.logo-about-me {
+
+	width: 100%;
+	height: 180;
+	background-color: #218A7A;
+}
+
+.logo {
+	width: 30%;
+}
+
+.about-me {
+	width: 70%;
+}
+
+.a-m {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 60px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 10%;
+	text-decoration: underline;
+}
+
+/* image and basic information */
+
+.image-and-basic-info {
+
+	width: 100%;
+	height: 180;
+	background-color: #218A7A;
+}
+
+.picture-of-me {
+	width: 30%;
+}
+
+.basic-info {
+	width: 70%;
+}
+
+.b-i {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 20px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 10%;
+}
+
+
+/* qualifications and experience */
+
+.qualification-experience-title {
+
+	width: 100%;
+	height: 60px;
+	background-color: #218A7A;
+}
+
+.qual-exper {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 30px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 5%;
+	text-decoration: underline;
+}
+
+
+.qualification-experience {
+	/*display: flex;*/
+	width: 100%;
+	height: 500px;
+	background-color: #218A7A;
+}
+
+.q-e {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 20px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 5%;
+}
+
+/* contact */
+
+.contact-title {
+
+	width: 100%;
+	height: 60px;
+	background-color: #218A7A;
+}
+
+.contact {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 30px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 5%;
+	text-decoration: underline;
+}
+
+
+.contact-info {
+
+	width: 100%;
+	height: 300px;
+	background-color: #218A7A;
+}
+
+.c-i {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 20px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin-left: 5%;
+}
+
+.aboutmemaincontainer {
+	background-color: #218A7A;
+	height: 900px;
+}
+
+
+/*-------------------------Paper trails-------------------------*/
+
+/* Paper trails title */
+.paper-trails {
+
+	width: 100%;
+	height: 110px;
+	background-color: #218A7A;
+}
+
+.pt {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 60px;
+	font-family: 'Bubblegum Sans', cursive;
+	margin: auto;
+	text-decoration: underline;
+}
+
+
+/* Slideshow */
+
+.cycle-slideshow {
+    width: 100%;
+    min-width: 200px;
+    max-width: 25%;
+    margin: 10px auto;
+    padding: 0;
+    position: relative;
+}
+   
+.center {
+	text-align: center;
+}
+
+.papertrailsmaincontainer {
+	background-color: #218A7A;
+	height: 1350px;
+}
+
+
+
+/*slideshow title (paper trails assets and textures)*/
+
+.ptassetsandtextures {
+
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+	margin-top: 3%;
+}
+
+.ptaandt {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	margin: auto;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+/*slideshow for pre-production*/
+
+.papertrailspreproduction {
+
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+	justify-content: center;
+}
+
+.papertrailsprepro {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+
+/*--------------------Drift Away----------------------------*/
+
+/*Drift away title*/
+
+.driftaway {
+
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+}
+
+.da {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 60px;
+	margin: auto;
+	font-family: 'Bubblegum Sans', cursive;
+	text-decoration: underline;
+}
+
+
+
+/*Man, text, nightmare*/
+
+.mantextnightmare {
+
+	width: 100%;
+	height: 450px;
+	background-color: #218A7A;
+}
+
+.man {
+	width: 10%;
+	margin-left: 5%;
+}
+
+.driftawaytext {
+	width: 70%;
+}
+
+.nightmare {
+	width: 20%;
+	margin-left: 5%;
+}
+
+.star {
+	margin-left: 45%;
+}
+
+/*drift away main container*/
+
+.driftawaymaincontainer {
+	background-color: #218A7A;
+	height: 2700px;
+}
+
+
+/*slideshow title (drift away background)*/
+
+.dabackgrounds {
+
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+}
+
+.driftawaybackgrounds {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	margin: auto;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+
+/*slideshow title (drift away assets)*/
+
+.daassets {
+
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+}
+
+.driftawayassets {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+
+/*additional information drift away*/
+
+.additionalinformationdriftaway {
+
+	width: 100%;
+	height: 80px;
+	background-color: #218A7A;
+}
+
+.addinfodriftaway {
+	color: rgba(255, 255, 255,  .55);
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+
+/*slideshow for pre-production*/
+
+.driftawaypreproduction {
+
 	width: 100%;
 	height: 80px;
 	background-color: #218A7A;
